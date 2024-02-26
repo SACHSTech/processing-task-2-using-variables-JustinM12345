@@ -28,20 +28,20 @@ public class Sketch extends PApplet {
 
     // Draw Head
     fill(255,255,0);
-    ellipse(width/2, 80, 100, 100);
+    ellipse(width / 2, 80, 100, 100);
 
     // Draw Body
     fill(0);
-    rect((width/2)-5, 130, 10, 100);
+    rect((width / 2) - 5, 130, 10, 100);
 
     // Draw Legs
     stroke(0);
-    line(height/2, 230, 150, 300);
-    line(height/2, 230, 250, 300);
+    line(height / 2, 230, 150, 300);
+    line(height / 2, 230, 250, 300);
 
     // Draw Arms
-    line(height/2, 180, 150, 200);
-    line(height/2, 180, 250, 150);
+    line(height / 2, 180, 150, 200);
+    line(height / 2, 180, 250, 150);
 
     // Draw Sun
     fill(255, 255, 0);
@@ -49,6 +49,6 @@ public class Sketch extends PApplet {
 
     // Foreground grass
     fill(0, 200, 0);
-    rect(0, (3*height)/4, 400, 100);
+    rect(0, (3 * height) / 4, 400, 100);
   }
 }
